@@ -45,10 +45,10 @@ int main()
     cout<<"z= "<<zA;
     int dA=d(z,e);
     cout<<"d= "<<dA;
-	//Stampa dei risultati
+	//Stampa dei risultati.
 	cout << "La chiave privata e': Kpr("<<e<<";"<<n(p,q)<<")"<<endl;
 	cout << "La chiave pubblica e': Kpub("<<d(z(p,q),e)<<";"<<n(p,q)<<")"<<endl;
-	cout << "Il messaggio cifrato è: "<<c(m,e,n(p,q));
+	cout << "Il messaggio cifrato ï¿½: "<<c(m,e,n(p,q));
     system("PAUSE");
     return 0;
 }
